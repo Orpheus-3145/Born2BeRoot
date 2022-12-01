@@ -29,10 +29,10 @@ usermod -aG sudo,faru42 faru
 # UFW
 apt install ufw
 ufw enable
-ufw start
 ufw allow 4242/tcp
 
 # SSH
+(aptinstall openssh-server)
 vim /etc/ssh/sshd_config  # decommentare e inserire 4242 al posto di 22 per la porta
 systemctl restart ssh
 # [ in VirtualBox, sulla VM Debian: Impostazioni-> Rete->   ]
