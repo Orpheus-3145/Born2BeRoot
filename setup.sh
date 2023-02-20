@@ -38,6 +38,7 @@ systemctl restart ssh
 # [ in VirtualBox, sulla VM Debian: Impostazioni-> Rete->   ]
 # [ Avanzate-> Inoltro delle porte: aggiungere nuova regola ]
 # [ e settare 4242 in porta host e porta guest              ]
+# per connettersi da un client l=il comando e': ssh localhost[@user_name] 4242
 
 # PWD POLICY
 apt install libpam-cracklib
