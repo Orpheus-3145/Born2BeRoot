@@ -1,4 +1,4 @@
-# PARTIZIONAMENTO LVM IN FASE DI SETUP INSTALLAZIONE:
+# LVM partitions set during setup:
 #
 #   DEVICE                     SIZE     TYPE   MOUNT POINT 
 #  _________________________________________________________
@@ -15,8 +15,7 @@
 # |     ├─faru42--vg-srv      |  2.8G | lvm   | /srv        |
 # |     └─faru42--vg-var--log |  3.7G | lvm   | /var/log    |
 #  ─────────────────────────────────────────────────────────
-
-#!/bin/bash
+  
 su -
 apt update && apt upgrade
 apt insall vim
