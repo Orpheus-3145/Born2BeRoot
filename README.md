@@ -31,3 +31,8 @@ This project aims to set up a simple server that has the following configuration
       - sudo log active and stored in /var/log/sudo/
 
   6) A script (see monitoring.sh) installed in /usr/sbin shows in stdout some system info every 10 minutes (scheduled via cron utility)
+  
+  
+# References
+- 42 project: [Born2BeRoot](https://cdn.intra.42.fr/pdf/pdf/82536/en.subject.pdf)
+- By: Francesco Aru ([GithHub](https://github.com/Orpheus-3145)), francesco.aru25@gmail.com, intra42/slack nickname: @faru, Codam, Amsterdam
